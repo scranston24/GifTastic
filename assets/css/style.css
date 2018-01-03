@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+/*body {
+  background: url("../images/wall.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+
+h1 {
+  background: #008000;
+  color: #FFFF00;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  font-size: 70px;
+}
