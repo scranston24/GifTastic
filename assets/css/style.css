@@ -2,18 +2,25 @@
   box-sizing: border-box;
 }
 
-/*body {
-  background: url("../images/wall.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}*/
+body {
+  background: url("../images/snow.jpg");
+
+  /*background-repeat: no-repeat;
+  background-size: cover;*/
+}
 
 h1 {
-  background: #008000;
-  color: #FFFF00;
+  background: #1E90FF;
+  color: #FFF;
   padding: 20px;
   margin: 10px;
   text-align: center;
-  font-size: 70px;
+  font-size: 100px;
+  font-family: holiday, Helvetica, Arial, sans-serif;
+  border: 7px solid #fff;
+}
+
+@font-face {
+  font-family: holiday;
+  src: url("../fonts/holidays.ttf");
 }
